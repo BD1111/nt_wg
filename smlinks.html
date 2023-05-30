@@ -33,8 +33,8 @@
 
     .social {
       background-color: #eae9e9;
-      width: 55px;
-      height: 55px;
+      width: 20px; 
+      height: 20px;
       border-radius: 50%;
       display: grid;
       place-items: center;
@@ -85,7 +85,7 @@
       background-color: #c8232c;
     }
 
-    .website:hover {
+    .telegram:hover {
       background-color: #2AABEE;
     }
 
@@ -122,11 +122,7 @@
       </div>
       <!-- End linkedin Icon -->
 
-      <!-- Start telegram Icon -->
-      <div id="website" onclick="navigate(this.id)" class="social website">
-        <span class="icon website"><i class="fab fa-website"></i></span>
-      </div>
-      <!-- End web Icon -->
+  
 
     </div>
 
@@ -142,7 +138,7 @@
           window.open("https://blog.shorouk.dev", '_blank').focus(); //Add the url to your blog
 
         else if (id === "email") {
-          window.open("mailto:info@bizdev.ae", '_blank').focus(); //Add your email after "mailto:""
+          window.open("mailto:https://bizdev.ae/", '_blank').focus(); //Add your email after "mailto:""
         }
 
         else if (id === "facebook") {
@@ -169,7 +165,7 @@
         else if (id === "pinterest") {
           window.open("https://www.pinterest.com/", '_blank').focus(); //Add the url to your pinterest account
         }
-        else if (id === "website") {
+        else if (id === "telegram") {
           window.open("https://bizdev.ae/", '_blank').focus(); //Add the url to your telegram account
         }
       }
